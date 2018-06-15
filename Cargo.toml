@@ -1,0 +1,12 @@
+[package]
+name = "try-from-derive"
+version = "0.1.0"
+authors = ["Lapz <striderman34@gmail.com>"]
+
+[dependencies]
+quote = "^0.6"
+syn = "^0.14"
+proc-macro2 = "0.4"
+
+[lib]
+proc-macro = true
